@@ -1,0 +1,9 @@
+Cartes = [9, 11, 1, 3, 10, 5, 2, 7]
+
+Pour i allant de 0 a longeur de Cartes
+    Si i == 7 
+        Alors
+            Afficher(" 7 est présent dans le tirange)
+    Sinon 
+        Afficher("è n'est pas présent dans le tirange)
+Exit(0)

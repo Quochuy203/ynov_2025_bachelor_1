@@ -1,0 +1,40 @@
+// Algo 1 
+x = 5 
+y = 10 
+z = x + y 
+Afficher(z)
+===> 4 point la ccomplexité constante 
+// Algo 2
+Pour i allant de 0 à (exclu) N par pas de 1
+    Afficher(i)
+Fin Pour
+===> 2 point, la ccomplexité constante
+// Algo 3
+somme = 0 
+Pour i allant de 0 à (exclu) N par pas de 1
+    somme = somme + 1
+Fin Pour
+Afficher(somme)
+===> 4 point, la complexité constant 
+// Algo 4
+Pour i allant de 0 à (exclu) N par pas de 1
+    Pour j allant de 0 à (exclu) N par pas de 1
+        Afficher(i + j) (afficher 1 point), (i + j := 1 point)
+    Fin Pour
+Fin Pour
+===> 6 point 
+// Algo 5
+compte = 0
+Pour i allant de 0 à (exclu) N par pas de 1
+    Pour j allant de 0 à (exclu) N par pas de 1
+        compte = compte + 1
+    Fin Pour
+Fin Pour
+Afficher(compte)
+// Algo 6
+Pour i allant de N à (exclu) 1 par pas de i = i//2
+    Pour j allant de N à (exclu) 1 par pas de j = j // 2
+        Afficher(i, j)
+    Fin Pour
+Fin Pour
+===> 
